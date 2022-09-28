@@ -10,9 +10,13 @@ const Exercise = () => {
       .then(data => setExercise(data))
   }, []);
 
+  const handleToDoList = id => {
+    console.log('btn click', id);
+  }
+
   return (
     <div>
-      {exercise.map(workout => <Workout key={workout.id} workout={workout}></Workout>)}   
+      {exercise.map(workout => <Workout key={workout.id} workout={workout} handleToDoList={handleToDoList}></Workout>)}   
     </div>
   );
 };
