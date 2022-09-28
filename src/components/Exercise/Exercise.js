@@ -1,22 +1,35 @@
-import React, { useEffect, useState } from 'react';
-import Workout from '../Workout/Workout';
+import React, { useEffect, useState } from "react";
+import Sidebar from "../Sidebar/Sidebar";
+import Workout from "../Workout/Workout";
 
 const Exercise = () => {
   const [exercise, setExercise] = useState([]);
+  const [toDoList, setToDoList] = useState([]);
 
   useEffect(() => {
-    fetch('exercise.json')
-      .then(res => res.json())
-      .then(data => setExercise(data))
+    fetch("exercise.json")
+      .then((res) => res.json())
+      .then((data) => setExercise(data));
   }, []);
 
-  const handleToDoList = id => {
-    console.log('btn click', id);
-  }
+  const handleToDoList = (id) => {
+    const addToList = exercise.find((workout) => workout.id === id);
+    const newToDoList = [...toDoList, addToList];
+    setToDoList(newToDoList);
+  };
 
   return (
-    <div>
-      {exercise.map(workout => <Workout key={workout.id} workout={workout} handleToDoList={handleToDoList}></Workout>)}   
+    <div className="grid grid-cols-2">
+      <div>
+        {exercise.map((workout) => (
+          <Workout
+            key={workout.id}
+            workout={workout}
+            handleToDoList={handleToDoList}
+          ></Workout>
+        ))}
+      </div>
+      <Sidebar toDoList={toDoList}></Sidebar>
     </div>
   );
 };
