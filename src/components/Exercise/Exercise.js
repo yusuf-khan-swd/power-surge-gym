@@ -12,7 +12,6 @@ const Exercise = () => {
 
   return (
     <div>
-      <h1>Hello from Exercise</h1>
       {exercise.map(workout => <Workout key={workout.id} workout={workout}></Workout>)}   
     </div>
   );
