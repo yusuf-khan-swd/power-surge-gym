@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Pushups",
+    "about": "Lorem deleniti laborum vitae amet nesciunt dolore quia! Blanditiis, nemo vero.",
+    "img": "https://www.kreedon.com/wp-content/uploads/2021/08/oYDbf5hQAePHEBNZTQMXRA.jpg",
+    "age": 20,
+    "time": 30
+  },
+  {
+    "id": 2,
+    "name": "Squats",
+    "about": "Lorem deleniti laborum vitae amet nesciunt dolore quia! Blanditiis, nemo vero.",
+    "img": "https://marathonhandbook.com/wp-content/uploads/2022/05/How-Many-Squats-Should-I-Do-A-Day-2.jpg",
+    "age": 18,
+    "time": 30
+  },
+  {
+    "id": 3,
+    "name": "Dumbbell ",
+    "about": "Lorem deleniti laborum vitae amet nesciunt dolore quia! Blanditiis, nemo vero.",
+    "img": "",
+    "age": 28,
+    "time": 30
+  },
+  {
+    "id": 4,
+    "name": "Lunge ",
+    "about": "Lorem deleniti laborum vitae amet nesciunt dolore quia! Blanditiis, nemo vero.",
+    "img": "https://evofitness.ch/wp-content/uploads/2020/01/reverse-lunge-fente-arri%C3%A8re-evofitness-1200x675.jpg",
+    "age": 23,
+    "time": 30
+  },
+  {
+    "id": 5,
+    "name": "Deadlift ",
+    "about": "Lorem deleniti laborum vitae amet nesciunt dolore quia! Blanditiis, nemo vero.",
+    "img": "https://www.mensjournal.com/wp-content/uploads/mf/15-best-exercises-squat.jpg?w=400&quality=86&strip=all",
+    "age": 25,
+    "time": 30
+  },
+  {
+    "id": 6,
+    "name": "Back squat ",
+    "about": "Lorem deleniti laborum vitae amet nesciunt dolore quia! Blanditiis, nemo vero.",
+    "img": "https://www.mensjournal.com/wp-content/uploads/mf/dumbbell-bench-press-chest-weights-main.jpg?w=700&quality=86&strip=all",
+    "age": 23,
+    "time": 30
+  },
+  {
+    "id": 7,
+    "name": "Bench Press",
+    "about": "Lorem deleniti laborum vitae amet nesciunt dolore quia! Blanditiis, nemo vero.",
+    "img": "https://www.mensjournal.com/wp-content/uploads/mf/_main_dbdeadlft.jpg?w=700&quality=86&strip=all",
+    "age": 25,
+    "time": 30
+  },
+  {
+    "id": 8,
+    "name": "Kettlebell swing",
+    "about": "Lorem deleniti laborum vitae amet nesciunt dolore quia! Blanditiis, nemo vero.",
+    "img": "https://www.mensjournal.com/wp-content/uploads/mf/15-best-exercises-suspended-push-up.jpg?w=400&quality=86&strip=all",
+    "age": 29,
+    "time": 30
+  },
+  {
+    "id": 8,
+    "name": "Suspended pushup",
+    "about": "Lorem deleniti laborum vitae amet nesciunt dolore quia! Blanditiis, nemo vero.",
+    "img": "https://www.mensjournal.com/wp-content/uploads/mf/_main_pullup_10.jpg?w=700&quality=86&strip=all",
+    "age": 28,
+    "time": 30
+  }
+]
