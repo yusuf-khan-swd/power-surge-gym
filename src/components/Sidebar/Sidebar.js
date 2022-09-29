@@ -33,6 +33,7 @@ const Sidebar = ({toDoList}) => {
       <h5>Exercise Details</h5>
       <p>Exercise Time: {totalTime} seconds </p>
       <p>Break Time: {breakTime} seconds </p>
+      <button className='bg-lime-500 w-full p-2 rounded-md mt-8'>Activity Completed</button>
     </div>
   );
 };
