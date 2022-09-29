@@ -3,7 +3,7 @@ import React from 'react';
 const BreakTime = ({handleBreakTime}) => {
   return (
     <div>
-      <h5>Add A Break</h5>
+      <h5 className='mb-3 font-medium'>Add A Break</h5>
       <div className='bg-slate-300 px-3 py-3 rounded-lg text-center'>
           <button onClick={() => handleBreakTime(10)} className='rounded-full p-2 bg-orange-400 ml-2'>10s</button>
           <button onClick={() => handleBreakTime(20)} className='rounded-full p-2 bg-orange-400 ml-2'>20s</button>

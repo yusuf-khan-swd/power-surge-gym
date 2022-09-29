@@ -27,12 +27,12 @@ const Sidebar = ({toDoList}) => {
       <div className='mb-5'>
         <Person></Person>
       </div>
-      <div className='mb-5'>
+      <div className='mb-10'>
         <BreakTime handleBreakTime={handleBreakTime}></BreakTime>
       </div>
-      <h5>Exercise Details</h5>
-      <p>Exercise Time: {totalTime} seconds </p>
-      <p>Break Time: {breakTime} seconds </p>
+      <h5 className='mb-3 font-medium'>Exercise Details</h5>
+      <p className='bg-white p-3 rounded-md mb-3'>Exercise Time: <span className='ml-2'>{totalTime} seconds</span> </p>
+      <p className='bg-white p-3 rounded-md'>Break Time: <span className='ml-2'>{breakTime} seconds</span> </p>
       <button className='bg-lime-500 w-full p-2 rounded-md mt-8'>Activity Completed</button>
     </div>
   );
