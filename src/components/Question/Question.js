@@ -13,7 +13,7 @@ const Question = () => {
         </p>
       </div>
       <div>
-        <h1  className="font-bold text-2xl mb-3">React props and state.</h1>
+        <h1 className="font-bold text-2xl mb-3">React props and state.</h1>
         <p>
           State are use when we want to update and modified some data. So state
           is mutable. And props use for when we want send some data to child
@@ -22,7 +22,9 @@ const Question = () => {
         </p>
       </div>
       <div>
-        <h1  className="font-bold text-2xl mb-3">What are the use of useEffect other then load data?</h1>
+        <h1 className="font-bold text-2xl mb-3">
+          What are the use of useEffect other then load data?
+        </h1>
         <p>
           The use of useEffect other then load data is directly updating the DOM
           and for timers.
