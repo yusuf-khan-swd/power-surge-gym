@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Sidebar from "../Sidebar/Sidebar";
 import Workout from "../Workout/Workout";
+import logo from "../../images/barbell.png";
 
 const Exercise = () => {
   const [exercise, setExercise] = useState([]);
@@ -23,9 +24,12 @@ const Exercise = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <div className="order-last sm:order-first md:col-span-2 lg:col-span-3 p-11">
           <div>
-            <h1 className="uppercase font-extrabold text-3xl text-stone-400">
-              Power Surge Gym
-            </h1>
+              <div className="flex">
+                <img className="w-9 h-9 mr-3" src={logo} alt="" />
+                <h1 className="uppercase font-extrabold text-3xl text-stone-400">
+                  Power Surge Gym
+                </h1>
+              </div>
             <p className="text-lg font-medium text-stone-600 mt-3 mb-3">
               Select Today's Exercise
             </p>
