@@ -20,8 +20,8 @@ const Exercise = () => {
 
   return (
     <div className="bg-zinc-50">
-      <div className="grid grid-cols-4">
-        <div className="col-span-3 p-11">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="order-last sm:order-first md:col-span-2 lg:col-span-3 p-11">
           <div>
             <h1 className="uppercase font-extrabold text-3xl text-stone-400">
               Power Surge Gym
