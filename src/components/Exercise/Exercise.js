@@ -29,7 +29,9 @@ const Exercise = () => {
           ></Workout>
         ))}
       </div>
+      <div className="">
       <Sidebar toDoList={toDoList}></Sidebar>
+      </div>
     </div>
   );
 };
