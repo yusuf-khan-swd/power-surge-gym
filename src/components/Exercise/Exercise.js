@@ -19,18 +19,20 @@ const Exercise = () => {
   };
 
   return (
-    <div className="grid grid-cols-2">
-      <div>
-        {exercise.map((workout) => (
-          <Workout
-            key={workout.id}
-            workout={workout}
-            handleToDoList={handleToDoList}
-          ></Workout>
-        ))}
+    <div className="grid grid-cols-3">
+      <div className="col-span-2">
+        <div className="grid grid-cols-3 gap-4">
+          {exercise.map((workout) => (
+            <Workout
+              key={workout.id}
+              workout={workout}
+              handleToDoList={handleToDoList}
+            ></Workout>
+          ))}
+        </div>
       </div>
       <div className="">
-      <Sidebar toDoList={toDoList}></Sidebar>
+        <Sidebar toDoList={toDoList}></Sidebar>
       </div>
     </div>
   );
