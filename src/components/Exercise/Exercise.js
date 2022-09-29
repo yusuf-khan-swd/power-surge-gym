@@ -40,7 +40,7 @@ const Exercise = () => {
             ))}
           </div>
         </div>
-        <div className="">
+        <div className="bg-slate-100 relative">
           <Sidebar toDoList={toDoList}></Sidebar>
         </div>
       </div>

@@ -24,7 +24,7 @@ const Sidebar = ({toDoList}) => {
   }, []);
 
   return (
-    <div className='w-4/5 mx-auto'>
+    <div className='w-4/5 mx-auto mt-5 sticky top-0'>
       <div className='mb-5'>
         <Person></Person>
       </div>
