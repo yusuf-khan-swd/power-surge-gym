@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import BreakTime from '../BreakTime/BreakTime';
+import Person from '../Person/Person';
 
 const Sidebar = ({toDoList}) => {
   const [breakTime, setBreakTime] = useState(0);
@@ -23,6 +24,7 @@ const Sidebar = ({toDoList}) => {
 
   return (
     <div>
+      <Person></Person>
       <BreakTime handleBreakTime={handleBreakTime}></BreakTime>
       <h5>Exercise Details</h5>
       <p>Exercise Time: {totalTime} seconds </p>
