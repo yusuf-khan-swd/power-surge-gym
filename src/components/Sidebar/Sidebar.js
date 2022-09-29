@@ -24,9 +24,13 @@ const Sidebar = ({toDoList}) => {
   }, []);
 
   return (
-    <div>
-      <Person></Person>
-      <BreakTime handleBreakTime={handleBreakTime}></BreakTime>
+    <div className='w-4/5 mx-auto'>
+      <div className='mb-5'>
+        <Person></Person>
+      </div>
+      <div className='mb-5'>
+        <BreakTime handleBreakTime={handleBreakTime}></BreakTime>
+      </div>
       <h5>Exercise Details</h5>
       <p>Exercise Time: {totalTime} seconds </p>
       <p>Break Time: {breakTime} seconds </p>
