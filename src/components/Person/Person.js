@@ -3,11 +3,11 @@ import image from '../../images/myPIc.jpg';
 
 const Person = () => {
   return (
-    <div>
-      <img className='w-28 rounded-sm' src={image} alt="" />
+    <div className='flex'>
+      <img className='w-20 rounded-full mr-5' src={image} alt="" />
       <div>
         <h2>Yusuf Khan</h2>
-        <p>Chittagong, Bangladesh</p>
+        <p> <small className='text-slate-400'>Chittagong, Bangladesh</small> </p>
       </div>
     </div>
   );
