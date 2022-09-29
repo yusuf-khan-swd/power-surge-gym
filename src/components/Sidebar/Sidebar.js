@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import BreakTime from '../BreakTime/BreakTime';
 import Person from '../Person/Person';
+import Toast from '../Toast/Toast';
 
 const Sidebar = ({toDoList}) => {
   const [breakTime, setBreakTime] = useState(0);
@@ -29,6 +30,7 @@ const Sidebar = ({toDoList}) => {
       <h5>Exercise Details</h5>
       <p>Exercise Time: {totalTime} seconds </p>
       <p>Break Time: {breakTime} seconds </p>
+      <Toast></Toast>
     </div>
   );
 };
