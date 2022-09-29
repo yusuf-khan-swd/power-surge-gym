@@ -2,7 +2,7 @@ import React from "react";
 
 const Question = () => {
   return (
-    <div className="grid gird-cols-1 md:grid-cols-3 gap-6 bg-zinc-400 p-6 mt-5">
+    <div className="grid gird-cols-1 lg:grid-cols-3 gap-6 bg-zinc-400 p-6 mt-5">
       <div>
         <h1 className="font-bold text-2xl mb-3">How Does React Work?</h1>
         <p>
