@@ -20,8 +20,8 @@ const Exercise = () => {
 
   return (
     <div className="bg-zinc-50">
-      <div className="grid grid-cols-3">
-        <div className="col-span-2 p-11">
+      <div className="grid grid-cols-4">
+        <div className="col-span-3 p-11">
           <div>
             <h1 className="uppercase font-extrabold text-3xl text-stone-400">
               Power Surge Gym
@@ -30,7 +30,7 @@ const Exercise = () => {
               Select Today's Exercise
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {exercise.map((workout) => (
               <Workout
                 key={workout.id}
