@@ -3,7 +3,7 @@ import Exercise from "./components/Exercise/Exercise";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <Exercise></Exercise>
 
     </div>
